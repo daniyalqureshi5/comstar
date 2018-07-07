@@ -1,0 +1,272 @@
+ @font-face{
+	src:url(../fonts/OpenSans-Regular.ttf);
+	font-family:open-sans;
+}
+body{
+	font-family:open-sans;
+}
+header{
+	z-index:10;
+	position:fixed;
+	width:100%;
+	background:white;
+	opacity:0.9;
+}
+header.fixed-header{
+	background-color:#F00;
+}
+.container{
+	width:1153px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+}
+.logo img{
+	width:140px;
+	height:68px;
+}
+nav{
+	float:right;
+	padding-top:24px;
+}	
+nav ul li{
+	display:inline;
+	margin-right:47px
+}
+nav ul li a{
+	text-decoration:none;
+	color:#c9cdd1;
+}
+nav ul li a:hover{
+	color:#5fbaa9;
+}
+.slider{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url(../img/com-slider.jpg);
+}
+.agencies h1{
+	padding-top:243px;
+	text-align:center;
+	font-size:70px;
+	color:#FFF;
+	margin-bottom:16px;
+}
+.agencies p{
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	padding-bottom:362px;
+}
+.bg{
+	background-color:#2e2e2e;
+}
+.comstar{
+	padding-top:41px;
+	text-align:center;
+	padding-bottom:40px;
+	margin-bottom:53px;
+}
+.man-head h1{
+	text-align:center;
+	font-size:50px;
+	color:#463255;
+	margin-bottom:23px;
+}
+.man-head p{
+	text-align:center;
+	font-size:16px;
+	color:#a1b1bc;
+	margin-bottom:50px;
+}
+h1.black{
+	color:#000000;
+}
+.one-four{
+	width:24%;
+	float:left;
+	margin-right:1%;
+}
+.commerce{
+	text-align:center;
+}
+.commerce img{
+	
+	margin-bottom:52px;
+}
+.commerce h1{
+	font-size:18px;
+	font-weight:bold;
+	color:#1abc9c;
+	margin-bottom:45px;
+}
+.bdr{
+	height:1px;
+	width:50px;
+	margin:0 auto;
+}
+.commerce p{
+	margin-top:16px;
+	font-size:15px;
+	line-height:18px;
+	margin-bottom:41px;
+	color:#a1b1bc;
+}
+.software-text h1{
+	margin-top:54px;
+	font-size:50px;
+	text-align:center;
+	color:#66cc99;
+	margin-bottom:23px;
+}
+.software-text P{
+	font-size:20px;
+	text-align:center;
+	color:#a1b1bc;
+	margin-bottom:50px;
+}
+.one-third{
+	width:30%;
+	float:left;
+	margin-right:5%;
+}
+.one-third:last-child{
+	margin-right:0;
+}
+.software-area h1{
+	border:1px solid #dedede;
+	width:337px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:19px;
+	margin-bottom:37px;
+}
+.software-area h1{
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+}
+.software-area i{
+	vertical-align:middle;
+	font-size:29px;
+	margin-right:19px;
+	color:#a32525;
+}
+.bg-2{
+	background-color:#000;
+	margin-bottom:55px;
+}
+.bg-2 h1{
+	color:#FFF;
+	text-align:center;
+	font-size:30px;
+	padding-top:46px;
+	padding-bottom:46px;
+}
+.more{
+	text-align:center;
+	margin-bottom:94px;
+}
+.more p{
+	font-size:13px;
+	line-height:20px;
+	color:#acacac;
+	margin-bottom:41px;
+}
+.more a{
+	border:1px solid #000;
+    padding-top:12px;
+	padding-bottom:12px;
+	padding-left:40px;
+	padding-right:40px;
+	text-decoration:none;
+	font-size:16px;
+	color:#000;
+	border-radius:10px;
+}
+.img{
+	border-top:2px solid #e6e6e6;
+	border-bottom:2px solid #e6e6e6;
+	padding-top:57px;
+	padding-bottom:63px;
+	margin-bottom:37px;
+}
+.img ul li{
+	display:inline;
+	margin-left:137px;
+	margin-right:59px;
+}
+.mobile img{
+	width:100%;
+	margin-bottom:48px;
+	border-bottom:2px solid #e6e6e6;
+	padding-bottom:44px;
+}
+.corner img{
+	float:left;
+}
+hr.br{
+	color:#e6e6e6;
+}
+.corner{
+	width:787px;
+	margin:0 auto;
+	padding-bottom:45px;
+}
+.corner h1{
+	font-size:18px;
+	color:#a21233;
+	font-weight:bold;
+	margin-bottom:19px;
+}
+.corner p{
+	font-size:14px;
+	line-height:22px;
+	color:#010101;
+}
+.bg-3{
+	background-color:#d34141;
+}
+.usa{
+	text-align:center;
+	padding-bottom:20px;
+}
+.usa h1{
+	text-align:center;
+	font-size:40px;
+	color:#FFF;
+	padding-top:45px;
+	padding-bottom:39px;
+}
+button{
+	width:170px;
+	height:49px;
+	font-size:16px;
+	color:#FFF;
+	background-color:#3c5b9c;
+	border:0;
+	border-radius:10px;
+}
+button.tweet{
+	background-color:#55aded;
+}
+footer{
+	background-color:#222533;
+}
+.copy-right p{
+	float:left;
+	color:#a1b1bc;
+	padding-top:43px;
+	padding-bottom:40px;
+}
+.copy-right p span{
+	color:#dd3333;
+}
+.copy-right ul li i{
+	float:right;
+	padding-top:43px;
+	padding-bottom:40px;
+	margin-right:24px;
+	color:#a1b1bc;
+}
